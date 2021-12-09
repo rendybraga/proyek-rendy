@@ -1,0 +1,101 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: cooper black;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+.medsos{
+  padding: 5px 0;
+  background-color: #353835;
+}
+
+.medsos ul li{
+  display: inline-block;
+  color: #353835;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+header h1{
+  float: left;
+  padding: 15px 0px;
+  color: #353835;
+}
+header ul{
+  float: right;
+}
+header ul li{
+  display: inline-block;
+}
+header ul li a{
+  padding: 25px 20px;
+  display: inline-block;
+}
+header ul li a:hover{
+  background-color: #353835;
+  color: #fff;
+}
+
+.active{
+  background-color: #353835;
+  color: #fff;
+}
+
+.main{
+  padding: 50px;
+  height: 1000px;
+  margin-top: 80px;
+  background-image: url(https://wallpaperaccess.com/full/1567665.png);
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.main:after{
+  content: " ";
+  display: block;
+  position: absolute;
+
+}
+
+.copy-container h1{
+  font-size: 45px;
+
+}
+
+.kolom-koran {
+  padding: 50px;
+  height: 700px;
+  margin-top: 10px;
+  background-size: cover;
+  text-align: justify;
+  color: white;
+
+}
+
+.kolom-koran span{
+  font-size: 30px;
+}
+
+.footer-logo{
+  font-size: 30px;
+  float: left;
+}
+.medsoss{
+  padding: 30px 0;
+  background-color: white;
+}
+.medsoss ul li{
+  display: inline-block;
+
+}
+
+.footer-list li{
+  float: left;
+}
